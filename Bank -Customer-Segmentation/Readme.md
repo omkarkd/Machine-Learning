@@ -23,7 +23,11 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler, normalize
 from sklearn.cluster import KMeans
-from sklearn.decomposition import PCA```
+from sklearn.decomposition import PCA
+```
+### 2. Visualize and explore datasets.
+`creditcard_df = pd.read_csv('Marketing_data.csv')`
+
 
 
 
