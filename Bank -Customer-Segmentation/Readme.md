@@ -69,8 +69,7 @@ The Features are as follows:
     6. Go to Step 4 and repeat.
     
 ```kmeans = KMeans(7)
-
-kmeans.fit(creditcard_df_scaled)
+   kmeans.fit(creditcard_df_scaled)
 ```
 
 
@@ -78,8 +77,7 @@ kmeans.fit(creditcard_df_scaled)
 
 ![](https://github.com/omkarkd/Machine-Learning/blob/master/Bank%20-Customer-Segmentation/PCA.png)
 ```pca = PCA(n_components = 2)
-
-principal_comp = pca.fit_transform(creditcard_df_scaled)
+   principal_comp = pca.fit_transform(creditcard_df_scaled)
 ```
 
 
