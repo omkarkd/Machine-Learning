@@ -49,6 +49,7 @@ The Features are as follows:
 * TENURE: Tenure of credit card service for user
 
 ### 3. Use Scikit-Learn library to find the optimal number of clusters using elbow method.
+![](https://github.com/omkarkd/Machine-Learning/blob/master/Bank%20-Customer-Segmentation/elbow%20methos.png)
 * The elbow method is a heuristic method of interpretation and validation of consistency within cluster analysis designed to help find the appropriate number of clusters in a dataset. 
 * If the line chart looks like an arm, then the "elbow" on the arm is the value of k that is the best.
 * Source: 
