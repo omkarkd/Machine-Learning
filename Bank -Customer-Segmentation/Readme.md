@@ -6,3 +6,26 @@
 * This process is known as "Market Segmentation" and is considered to be crucial for maximizing marketing campaign conversion rate.
 ![](https://github.com/omkarkd/Machine-Learning/blob/master/Bank%20-Customer-Segmentation/segmentation.png)
 
+## We will build K-mean unsupervised machine learning algorithm in Scikit Learn to perform customer segmentation.
+
+### Following are the steps to be Performed step-by-step:
+
+1. Import libraries and datasets.
+2. Visualize and explore datasets.
+3. Use Scikit-Learn library to find the optimal number of clusters using elbow method.
+4. Apply k-means using Scikit-Learn to perform customer segmentation.
+5. Apply Principal Component Analysis (PCA) technique to perform dimensionality reduction and data visualization.
+
+### 1. Import libraries and datasets.
+```import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+from sklearn.preprocessing import StandardScaler, normalize
+from sklearn.cluster import KMeans
+from sklearn.decomposition import PCA```
+
+
+
+
+
