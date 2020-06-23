@@ -1,4 +1,4 @@
-## PROBLEM STATEMENT AND BUSINESS CASE:## 
+## PROBLEM STATEMENT AND BUSINESS CASE:
 
 * The Bank's Customer Data has been provided for past 6 months which includes transaction frequecy , amount , tenure etc.
 * The bank marketing team wishes to leverage AI/ML to launch a targeted marketing ad campaign that is tailored to specific group of customers.
