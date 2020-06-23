@@ -56,8 +56,26 @@ The Features are as follows:
   * https://en.wikipedia.org/wiki/Elbow_method_(clustering)
   * https://www.geeksforgeeks.org/elbow-method-for-optimal-value-of-k-in-kmeans/
   
- ### 4. Apply k-means using Scikit-Learn to perform customer segmentation.
+### 4. Apply k-means using Scikit-Learn to perform customer segmentation.
  
+ ![](https://github.com/omkarkd/Machine-Learning/blob/master/Bank%20-Customer-Segmentation/kmeans.png)
+ 
+ * KMeans Algorithm Steps:
+    1. Choose Numbers of cluster "K".
+    2. Select Random K points that are going to be the centeroids for each cluster.
+    3. Assign each datapoint to the nearest centeroid, doing so will enable us to create "K" numbers of cluster.
+    4. Calculate a new centeroid for each cluster
+    5. Reassign each data point to the new closest centeroid.
+    6. Go to Step 4 and repeat.
+    
+`kmeans = KMeans(7)`
+`kmeans.fit(creditcard_df_scaled)`.
+
+### 5. Apply Principal Component Analysis (PCA) technique to perform dimensionality reduction and data visualization.
+
+`pca = PCA(n_components = 2)`
+`principal_comp = pca.fit_transform(creditcard_df_scaled)`.
+
 
 
 
