@@ -68,14 +68,19 @@ The Features are as follows:
     5. Reassign each data point to the new closest centeroid.
     6. Go to Step 4 and repeat.
     
-`kmeans = KMeans(7)`
-`kmeans.fit(creditcard_df_scaled)`.
+```kmeans = KMeans(7)
+
+kmeans.fit(creditcard_df_scaled)
+```
+
 
 ### 5. Apply Principal Component Analysis (PCA) technique to perform dimensionality reduction and data visualization.
 
-`pca = PCA(n_components = 2)`
-`principal_comp = pca.fit_transform(creditcard_df_scaled)`.
+![](https://github.com/omkarkd/Machine-Learning/blob/master/Bank%20-Customer-Segmentation/PCA.png)
+```pca = PCA(n_components = 2)
 
+principal_comp = pca.fit_transform(creditcard_df_scaled)
+```
 
 
 
